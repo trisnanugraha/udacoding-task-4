@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.cf:after {
+    clear: both;
+}
+ 
+.cf {
+    *zoom: 1;
+}
+
+header {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+
+header h1 {
+    display: block;
+    float: left;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+header ul {
+    display: block;
+    float: right;
+    margin-right: 50px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+header ul li a {
+    padding-bottom: 2px;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a.login {
+    background-color: #00BFB0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+header ul li a.login:hover {
+    background-color: #008A98;
+    border-style: none;
+}
+
+main #videotron {
+    width: 100%;
+    position: relative;
+}
+
+main #videotron .tagline {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+
+main #videotron .tagline h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 20px #141E12;
+}
+
+main #videotron .tagline h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px #141E12;
+}
+
+main #videotron .tagline button{
+    background-color: #00BFB0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+main #videotron .tagline button:hover{
+    background-color: #008A98;
+    cursor: pointer;
+}
+
+#our-services {
+    /* background-color: khaki; */
+    padding: 120px 50px;
+    box-sizing: border-box;
+}
+
+#our-services h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.services-item {
+    margin: 0 20px;
+    position: relative;
+    opacity: 0.8;
+}
+
+.services-item:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.services-item img {
+    width: 100%;
+    border-radius: 50px 0 50px 0;
+}
+
+.services-item p {
+    border-radius: 0 0 50px 0;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 3px;
+    padding: 10px 50px ;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#about-us {
+    height: 1200px;
+}
