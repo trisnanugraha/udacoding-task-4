@@ -14,28 +14,35 @@
 <body>
     <main>
         <div id="register-img">
+            <h1>Welcome to <span>TozenTea</span></h1>
+            <p>join us now to get other benefits </p>
+        </div>
+        <div id="register-form">
             <a href="index.html">
                 <h1>TozenTea</h1>
             </a>
-        </div>
-        <div id="register-form">
             <form action="#" method="POST">
-                <h1>Login</h1>
+                <h2>Register</h2>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email-input" id="email" required>
+                </div>
                 <div class="field">
                     <label for="username">Username</label>
                     <input type="text" name="username-input" id="username" required>
                 </div>
                 <div class="field">
                     <label for="password">Password</label>
-                    <input type="password" name="password-input" id="username" required>
+                    <input type="password" name="password-input" id="password" required>
                 </div>
-                <div class="field-check">
-                    <input type="checkbox" name="remember-input" id="remember-me">
-                    <label for="remember-me">Remember me</label>
-                    <a href="#" class="cf">Forgot Password ?</a>
+                <div class="field">
+                    <label for="repeat-password">Repeat Password</label>
+                    <input type="password" name="repeat-password-input" id="repeat-password" required>
                 </div>
-                <button type="submit">Login</button>
-                <div id="register-link"><p>Don't have an account ? <span><a href="register.html">Create your account here</a></p></div>
+                <button type="submit">Register</button>
+                <div id="login-link">
+                    <p>Already have an account ? <span><a href="login.html">Login here</a></span></p>
+                </div>
             </form>
         </div>
     </main>

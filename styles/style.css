@@ -283,6 +283,7 @@ main #login-img h1{
     margin: 30px;
     color: #fff;
     text-shadow: 1px 1px 4px #3b48569c;
+    /* background-color: black; */
 }
 
 main #login-form {
@@ -300,22 +301,22 @@ main #login-form h1{
     margin-bottom: 30px;
 }
 
-main #login-form p{
+main #login-form p, main #register-form p {
     font-size: 18px;
     font-weight: 500;
     color: #3d4046;
 
 }
 
-main #login-form .field {
+main #login-form .field, main #register-form .field {
     padding: 10px 0;
 }
 
-main #login-form .field label, main #login-form .field input {
+main #login-form .field label, main #login-form .field input, main #register-form .field label,  main #register-form .field input{
     display: block;
 }
 
-main #login-form label {
+main #login-form label, main #register-form label{
     font-size: 18px;
     font-weight: 500;
     color: #3d4046;
@@ -323,7 +324,7 @@ main #login-form label {
     font-size: 20px;
 }
 
-main #login-form .field input {
+main #login-form .field input, main #register-form .field input {
     width: 100%;
     height: 50px;
     font-size: 18px;
@@ -334,11 +335,15 @@ main #login-form .field input {
     border-radius: 5px;
 }
 
+/* main #register-form .field input {
+    height: 40px;
+} */
+
 main #login-form .field input:hover {
     outline: none;
 }
 
-main #login-form button {
+main #login-form button, main #register-form button {
     margin-top: 30px;
     width: 100%;
     font-size: 20px;
@@ -350,7 +355,7 @@ main #login-form button {
     background-color: #00BFB0;
 }
 
-main #login-form button:hover {
+main #login-form button:hover, main #register-form button:hover {
     background-color: #008A98;
     cursor: pointer;
 }
@@ -366,12 +371,12 @@ main #login-form .field-check a {
     color: #006FF2;
 }
 
-main #login-form #register-link {
+main #login-form #register-link, main #register-form #login-link {
     margin-top: 50px;
     text-align: center;
 }
 
-main #login-form #register-link a {
+main #login-form #register-link a, main #register-form #login-link a {
     font-size: 18px;
     color: #006FF2;
 }
@@ -382,26 +387,63 @@ main #register-img {
     background-image: url(/images/register-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -400px;
-    float: left;
+    background-position-y: -50vh;
+    float: right;
+}
+
+main #register-img h1, main #login-img h2 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+    margin: 150px 50px 0 50px;
+    line-height: 100px;
+    text-shadow: 1px 1px 4px #3b48569c;
+}
+
+main #login-img h2 {
+    margin-top: 100px;
+    font-size: 80px;
+}
+
+main #register-img p, main #login-img p {
+    margin: 40px 0 0 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 1px 1px 4px #3b48569c;
+}
+
+main #login-img p {
+    /* background-color: black; */
+    margin-right: 50px;
+    line-height: 40px;
 }
 
 main #register-form {
     width: 50%;
     height: 100vh;
-    float: right;
-    padding: 100px 50px 0 50px;
+    float: left;
+    padding: 50px 50px 0 50px;
     box-sizing: border-box;
+    /* background-color: lavender; */
 }
 
-main #register-img h1{
+main #register-form h1{
     font-size: 40px;
     font-weight: 700;
     margin: 30px;
-    color: #fff;
-    text-shadow: 1px 1px 4px #3b48569c;
+    color: #141E12;
+    text-shadow: 1px 1px 4px #5d5e5f9c;
+    display: none;
 }
 
-main #register-img a{
-    text-decoration: none;
+/* main #register-img span{
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+main #register-form h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #3d4046;
+    margin-bottom: 30px;
 }
