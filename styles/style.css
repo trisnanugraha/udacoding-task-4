@@ -206,6 +206,7 @@ main #videotron .tagline button:hover{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: #3d4046;
 }
 
 #our-services h2 {
@@ -213,6 +214,7 @@ main #videotron .tagline button:hover{
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
+    color: #3d4046;
 }
 
 .container{
@@ -482,6 +484,7 @@ main #register-form h2{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: #3d4046;
 }
 
 #events h2 {
@@ -490,6 +493,7 @@ main #register-form h2{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 30px;
+    color: #3d4046;
 }
 
 #slider {
@@ -548,11 +552,13 @@ main #register-form h2{
  #slides #overflow .inner .slide-content h1 {
      line-height: 50px;
      margin: 20px 50px 30px;
+     color: #fff;
  }
 
- .slide-content h2 {
+ #slides #overflow .inner .slide-content h2 {
      font-size: 25px;
      margin-bottom: 20px;
+     color: #fff;
  }
 
  .slide-content p {
@@ -678,6 +684,7 @@ main #register-form h2{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: #3d4046;
 }
 
 #feedback h2 {
@@ -686,6 +693,7 @@ main #register-form h2{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 20px;
+    color: #3d4046;
 }
 
  #slider-fb {
@@ -754,7 +762,7 @@ main #register-form h2{
 
  .feedback-container {
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: #3d4046;;
     padding: 20px;
     margin: 10px;
     height: 90%;
