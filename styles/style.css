@@ -289,7 +289,7 @@ main #videotron .tagline button:hover{
 main #login-img {
     width: 50%;
     height: 100vh;
-    background-image: url(/images/login-cover.jpg);
+    background-image: url(../images/login-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
@@ -406,7 +406,7 @@ main #login-form #register-link a, main #register-form #login-link a {
 main #register-img {
     width: 50%;
     height: 100vh;
-    background-image: url(/images/register-cover.jpg);
+    background-image: url(../images/register-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -50vh;
@@ -581,7 +581,7 @@ main #register-form h2{
  }
 
  #slide_img1 {
-    background-image: url(/images/slide-1.jpg);
+    background-image: url(../images/slide-1.jpg);
     width: 50%;
     height: 100%;
     position: relative;
@@ -593,7 +593,7 @@ main #register-form h2{
  }
 
  #slide_img2 {
-    background-image: url(/images/slide-2.jpg);
+    background-image: url(../images/slide-2.jpg);
     width: 50%;
     height: 100%;
     position: relative;
@@ -605,7 +605,7 @@ main #register-form h2{
  }
 
  #slide_img3 {
-    background-image: url(/images/slide-3.jpg);
+    background-image: url(../images/slide-3.jpg);
     width: 50%;
     height: 100%;
     position: relative;
